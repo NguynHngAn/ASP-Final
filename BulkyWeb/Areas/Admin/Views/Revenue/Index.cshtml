@@ -1,0 +1,29 @@
+﻿@model RevenueVM
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4 text-primary">Báo cáo doanh thu</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm border-0 rounded-lg">
+                <div class="card-header bg-primary bg-gradient text-white text-center rounded-top">
+                    <h4>Hôm nay: @Model.Date.ToString("dd/MM/yyyy")</h4>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="p-2">
+                            <h5 class="mb-0">Tổng tiền:</h5>
+                            <h4 class="text-success fw-bold">@Model.TotalRevenue.ToString("c", new System.Globalization.CultureInfo("vi-VN"))</h4>
+                        </div>
+                        <div class="p-2 mt-3">
+                            <h5 class="mb-0">Tổng đơn hàng:</h5>
+                            <h4 class="text-warning fw-bold">@Model.TotalOrders</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer bg-light text-center rounded-bottom">
+                    <small class="text-muted">Cập nhật lúc: @DateTime.Now.ToString("HH:mm:ss")</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

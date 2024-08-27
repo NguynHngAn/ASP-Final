@@ -1,0 +1,167 @@
+﻿/* Gradient Background Animation */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 200% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Global Styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333333;
+    background: linear-gradient(135deg, #ADD8E6, #B0E0E6, #AFEEEE, #E0FFFF);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative; /* Đảm bảo navbar có vị trí tương đối */
+    z-index: 1000; /* Đảm bảo z-index đủ cao để nằm trên các thành phần khác */
+}
+
+    .navbar .navbar-brand,
+    .navbar .nav-link {
+        color: #005f73 !important;
+        font-weight: 500;
+    }
+
+        .navbar .nav-link:hover,
+        .navbar .navbar-brand:hover {
+            color: #0a9396 !important;
+        }
+
+        .navbar .active > .nav-link,
+        .navbar .nav-link.active {
+            color: #94d2bd !important;
+            font-weight: 700;
+        }
+
+    .navbar .dropdown-menu {
+        background-color: #ffffff;
+        border: none;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        max-height: 300px; /* Thiết lập chiều cao tối đa cho menu */
+        overflow-y: auto; /* Kích hoạt cuộn dọc nếu menu quá dài */
+        padding: 0;
+        z-index: 1050; /* Đảm bảo menu luôn nằm trên phần nội dung */
+        position: absolute; /* Đảm bảo menu được đặt ở vị trí tuyệt đối */
+        top: 100%; /* Đảm bảo menu xuất hiện ngay dưới navbar */
+    }
+
+
+
+.dropdown-item {
+    color: #333333;
+    padding: 8px 15px; /* Giảm padding để menu gọn hơn */
+    font-size: 14px; /* Giảm kích thước font để tiết kiệm không gian */
+}
+
+    .dropdown-item:hover {
+        background-color: #e0fbfc;
+        color: #005f73;
+    }
+
+/* Container Styles */
+.container {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding: 15px 0;
+    color: #005f73;
+    font-size: 14px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styles */
+.btn-custom {
+    background-color: #0a9396;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-custom:hover {
+        background-color: #005f73;
+        color: #ffffff;
+    }
+
+/* Table Styles */
+.table-custom {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+    .table-custom th,
+    .table-custom td {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .table-custom th {
+        background-color: #e0fbfc;
+        color: #005f73;
+        font-weight: 600;
+    }
+
+    .table-custom tr:hover {
+        background-color: #f1f1f1;
+    }
+
+/* Form Styles */
+.form-control {
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 10px;
+    transition: border-color 0.3s ease;
+}
+
+    .form-control:focus {
+        border-color: #0a9396;
+        box-shadow: none;
+    }
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .navbar .navbar-brand,
+    .navbar .nav-link {
+        font-size: 16px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
