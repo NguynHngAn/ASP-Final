@@ -13884,11 +13884,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\BulkyBookWeb.csproj",
+      "projectUniqueName": "C:\\Users\\ACER\\Downloads\\Test code\\ASP-Final\\BulkyWeb\\BulkyBookWeb.csproj",
       "projectName": "BulkyBookWeb",
-      "projectPath": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\BulkyBookWeb.csproj",
+      "projectPath": "C:\\Users\\ACER\\Downloads\\Test code\\ASP-Final\\BulkyWeb\\BulkyBookWeb.csproj",
       "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\obj\\",
+      "outputPath": "C:\\Users\\ACER\\Downloads\\Test code\\ASP-Final\\BulkyWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -13906,8 +13906,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\Bulky.DataAccess\\BulkyBook.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\Bulky.DataAccess\\BulkyBook.DataAccess.csproj"
+            "C:\\Users\\ACER\\Downloads\\Test code\\ASP-Final\\Bulky.DataAccess\\BulkyBook.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\ACER\\Downloads\\Test code\\ASP-Final\\Bulky.DataAccess\\BulkyBook.DataAccess.csproj"
             }
           }
         }

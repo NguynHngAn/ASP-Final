@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FXPP+QpMaUM=",
+  "dgSpecHash": "hfPgpVvlUrk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\Bulky.DataAccess\\BulkyBook.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\ACER\\Downloads\\Test code\\ASP-Final\\Bulky.DataAccess\\BulkyBook.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

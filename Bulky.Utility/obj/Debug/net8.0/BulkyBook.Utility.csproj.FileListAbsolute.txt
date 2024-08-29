@@ -11,3 +11,16 @@ C:\Users\ACER\Downloads\Clone code\Bulky_MVC\Bulky.Utility\obj\Debug\net8.0\Bulk
 C:\Users\ACER\Downloads\Clone code\Bulky_MVC\Bulky.Utility\obj\Debug\net8.0\refint\BulkyBook.Utility.dll
 C:\Users\ACER\Downloads\Clone code\Bulky_MVC\Bulky.Utility\obj\Debug\net8.0\BulkyBook.Utility.pdb
 C:\Users\ACER\Downloads\Clone code\Bulky_MVC\Bulky.Utility\obj\Debug\net8.0\ref\BulkyBook.Utility.dll
+C:\Users\ACER\Downloads\Test code\ASP-Final\Bulky.Utility\bin\Debug\net8.0\BulkyBook.Utility.deps.json
+C:\Users\ACER\Downloads\Test code\ASP-Final\Bulky.Utility\bin\Debug\net8.0\BulkyBook.Utility.dll
+C:\Users\ACER\Downloads\Test code\ASP-Final\Bulky.Utility\bin\Debug\net8.0\BulkyBook.Utility.pdb
+C:\Users\ACER\Downloads\Test code\ASP-Final\Bulky.Utility\obj\Debug\net8.0\BulkyBook.Utility.csproj.AssemblyReference.cache
+C:\Users\ACER\Downloads\Test code\ASP-Final\Bulky.Utility\obj\Debug\net8.0\BulkyBook.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Downloads\Test code\ASP-Final\Bulky.Utility\obj\Debug\net8.0\BulkyBook.Utility.AssemblyInfoInputs.cache
+C:\Users\ACER\Downloads\Test code\ASP-Final\Bulky.Utility\obj\Debug\net8.0\BulkyBook.Utility.AssemblyInfo.cs
+C:\Users\ACER\Downloads\Test code\ASP-Final\Bulky.Utility\obj\Debug\net8.0\BulkyBook.Utility.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Downloads\Test code\ASP-Final\Bulky.Utility\obj\Debug\net8.0\BulkyBook.Utility.sourcelink.json
+C:\Users\ACER\Downloads\Test code\ASP-Final\Bulky.Utility\obj\Debug\net8.0\BulkyBook.Utility.dll
+C:\Users\ACER\Downloads\Test code\ASP-Final\Bulky.Utility\obj\Debug\net8.0\refint\BulkyBook.Utility.dll
+C:\Users\ACER\Downloads\Test code\ASP-Final\Bulky.Utility\obj\Debug\net8.0\BulkyBook.Utility.pdb
+C:\Users\ACER\Downloads\Test code\ASP-Final\Bulky.Utility\obj\Debug\net8.0\ref\BulkyBook.Utility.dll
